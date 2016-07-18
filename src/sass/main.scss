@@ -1,1 +1,35 @@
-canvas { background: #eee; }
+.container {
+  width: 480px;
+  height: 320px;
+  background: blue;
+  border: 5px solid black;
+  max-width: 500px;
+}
+
+.ball{
+  border-radius: 6PX;
+  color: black;
+
+}
+
+.paddle {
+  height: 10px;
+  width: 75px;
+  color: black;
+}
+
+.bricks {
+
+width: 75px;
+height: 20px;
+padding: 10px;
+color: purple;
+}
+
+.score {
+
+}
+
+.lives {
+
+}
