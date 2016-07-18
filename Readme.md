@@ -1,4 +1,4 @@
-tiy-chad-game.surge.sh
+[Live on Surge](http://tiy-chad-game.surge.sh)
 
 I went through a tutorial on how to build this game i learned a lot in using canvas and learning how to make 2d games and learning new syntax.
 
