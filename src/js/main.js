@@ -20,6 +20,8 @@ var brickOffsetLeft = 30;
 var score = 0;
 var lives = 3;
 var bricks = [];
+var c = c;
+var r = r;
 for(c=0; c<brickColumnCount; c++) {
     bricks[c] = [];
     for(r=0; r<brickRowCount; r++) {
@@ -85,8 +87,8 @@ function drawPaddle() {
     ctx.closePath();
 }
 function drawBricks() {
-    for(c=0; c<brickColumnCount; c++) {
-        for(r=0; r<brickRowCount; r++) {
+    for(var c=0; c<brickColumnCount; c++) {
+        for(var r=0; r<brickRowCount; r++) {
             if(bricks[c][r].status == 1) {
                 var brickX = (r*(brickWidth+brickPadding))+brickOffsetLeft;
                 var brickY = (c*(brickHeight+brickPadding))+brickOffsetTop;
